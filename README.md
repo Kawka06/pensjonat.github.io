@@ -1,1 +1,0 @@
-# pensjonat.github.io
