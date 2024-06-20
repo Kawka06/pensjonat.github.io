@@ -2,7 +2,7 @@
 
 :root{
     --primary:#2ab600;
-    --secondary:#0c0c0c36;
+    --secondary:#0c0c0c88;
     --black:#333;
     --white:#ffffff;
     --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
@@ -197,7 +197,7 @@ section{
   border: .1rem solid rgba(0, 0, 0, 0.2);
   border-radius: .5rem;
   box-shadow: var(--box-shadow);
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
 .room .slide .image{
@@ -229,6 +229,7 @@ section{
 .room .slide .content{
   padding: 2rem;
   padding-top: 0;
+  
 }
 
 .room .slide .content h3{
@@ -249,6 +250,7 @@ section{
   height: 30rem;
   position: relative;
   overflow: hidden;
+  
 }
 
 .gallery .slide img{
@@ -267,11 +269,13 @@ section{
   height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
+  
 }
 
 .gallery .slide .icon i{
   font-size: 6rem;
   color: var(--white);
+  margin-bottom: 5rem;
 }
 
 .gallery .slide:hover .icon{
@@ -280,6 +284,7 @@ section{
 
 /* end */
 /* Offer*/
+
 .offer-section {
   padding: 5rem 7%;
   background: #f5f5f5; /* Adjust the background color if needed */
@@ -297,19 +302,20 @@ section{
 .offer-slider {
   display: flex;
   overflow: hidden;
+  margin-bottom: 3rem;
 }
 
 .offer .swiper-slide {
   background: var(--white);
-  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  border: 0.1rem solid rgba(0, 0, 0, 0);
   border-radius: 0.5rem;
   box-shadow: var(--box-shadow);
-  margin-bottom: 3rem;
+  margin-bottom: rem;
   width: 300px; /* Ensure consistent width */
 }
 
 .offer .image {
-  height: 25rem;
+  height: 70rem;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -322,8 +328,9 @@ section{
 }
 
 .offer .content {
-  padding: 2rem;
+  padding: 0rem;
   padding-top: 0;
+  margin-bottom: 5rem;
 }
 
 .offer .content h3 {
@@ -333,15 +340,24 @@ section{
 
 .offer .content p {
   font-size: 1.6rem;
-  color: #666;
-  padding: 0.5rem 0;
-  line-height: 1.5;
+  color: #050505;
+  padding: 5 rem ;
+  line-height: 2;
+  
+}
+
+.offer .content p.price{
+  text-align: center;
+  font-size: 2rem;
+  color:var(--primary);
 }
 /* end */
 /* contact */
 
 .contact{
-  background: var(--secondary);
+  background:var(--secondary);
+  text-align: center;
+ 
 }
 
 .contact .box-container{
@@ -357,7 +373,7 @@ section{
 .contact .box-container .box h3{
   font-size: 2.2rem;
   padding: 1rem 0;
-  color: var(--primary);
+  color: var(--black#333);
 }
 
 .contact .box-container .box a{
@@ -408,7 +424,26 @@ section{
 }
 
 .contact .credit span{
-  color: rgba(19, 29, 160, 0.3);
+  color: rgb(255, 255, 255);
+}
+.contact .box-container .box iframe {
+  width: 190%;
+  height: 25rem;
+  border-radius: .5rem;
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+  transition: transform .3s;
+}
+
+.contact .box-container .box img:hover {
+  transform: scale(1.05);
+}
+.contact .box-container .box h1{
+  font-size: 3rem;
+  margin: .3rem;
+  padding-left: 100rem;
+  padding-top: 2rem;
+  line-height: 3rem;
 }
 
 /* end */

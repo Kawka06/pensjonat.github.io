@@ -29,7 +29,7 @@ var swiper = new Swiper(".room-slider", {
     spaceBetween: 20,
     grabCursor:true,
     loop:false,
-    centeredSlides:true,
+    centeredSlides:false,
     autoplay: {
         delay: 7500,
         disableOnInteraction: false,
@@ -55,7 +55,7 @@ var swiper = new Swiper(".gallery-slider", {
     spaceBetween: 10,
     grabCursor:true,
     loop:false,
-    centeredSlides:true,
+    centeredSlides:false,
     autoplay: {
         delay: 7500,
         disableOnInteraction: false,
